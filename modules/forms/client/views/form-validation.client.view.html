@@ -10,11 +10,11 @@
             <div class="panel panel-default">
                <div class="panel-body">
                   <fieldset class="b0">
-                     <legend>Basics</legend>
+                     <legend>Competition Page</legend>
                   </fieldset>
                   <fieldset>
                      <div class="form-group">
-                        <label class="col-sm-2 control-label">Required Text</label>
+                        <label class="col-sm-2 control-label">Company</label>
                         <div class="col-sm-6">
                            <input class="form-control" type="text" name="sometext" required="" ng-model="sometext" />
                            <span class="text-danger" ng-show="form.validateInput('sometext', 'required')">This field is required</span>
@@ -26,9 +26,9 @@
                   </fieldset>
                   <fieldset>
                      <div class="form-group">
-                        <label class="col-sm-2 control-label">Email</label>
+                        <label class="col-sm-2 control-label">Website</label>
                         <div class="col-sm-6">
-                           <input class="form-control" type="email" placeholder="mail@example.com" name="email" required="" ng-model="email" />
+                           <input class="form-control" type="email" placeholder="www.companysite.com" name="email" required="" ng-model="email" />
                            <span class="text-danger" ng-show="form.validateInput('email', 'required')">This field is required</span>
                            <span class="text-danger" ng-show="form.validateInput('email', 'email')">This field must be a valid email address</span>
                         </div>
@@ -37,52 +37,10 @@
                         </div>
                      </div>
                   </fieldset>
+
                   <fieldset>
                      <div class="form-group">
-                        <label class="col-sm-2 control-label">Checkbox &amp; Radio</label>
-                        <div class="col-sm-6">
-                           <div class="checkbox c-checkbox needsclick">
-                              <label class="needsclick">
-                                 <input class="needsclick" type="checkbox" required="" name="checkbox" ng-model="checkbox" />
-                                 <span class="fa fa-check"></span>Option one</label>
-                           </div>
-                           <span class="text-danger" ng-show="form.validateInput('checkbox', 'required')">This field is required</span>
-                           <div class="radio c-radio">
-                              <label>
-                                 <input type="radio" required="" name="radio" value="option1" ng-model="radio" />
-                                 <span class="fa fa-circle"></span>Option one</label>
-                           </div>
-                           <div class="radio c-radio">
-                              <label>
-                                 <input type="radio" required="" name="radio" value="option2" ng-model="radio" />
-                                 <span class="fa fa-circle"></span>Option two checked</label>
-                           </div>
-                           <span class="text-danger" ng-show="form.validateInput('radio', 'required')">This field is required</span>
-                        </div>
-                        <div class="col-sm-4"></div>
-                     </div>
-                  </fieldset>
-                  <fieldset>
-                     <div class="form-group">
-                        <label class="col-sm-2 control-label">Select</label>
-                        <div class="col-sm-6">
-                           <select class="form-control" name="select" required="" ng-model="select">
-                              <option value="">Nothing</option>
-                              <option value="1">Option 1</option>
-                              <option value="2">Option 2</option>
-                              <option value="3">Option 3</option>
-                              <option value="4">Option 4</option>
-                           </select>
-                           <span class="text-danger" ng-show="form.validateInput('select', 'required')">This field is required</span>
-                        </div>
-                        <div class="col-sm-4">
-                           <small class="text-muted">type='number'</small>
-                        </div>
-                     </div>
-                  </fieldset>
-                  <fieldset>
-                     <div class="form-group">
-                        <label class="col-sm-2 control-label">Number</label>
+                        <label class="col-sm-2 control-label">Incentive 1</label>
                         <div class="col-sm-6">
                            <input class="form-control" type="number" name="number" required="" ng-model="number" />
                            <span class="text-danger" ng-show="form.validateInput('number', 'number')">This field must be a valid number</span>
@@ -94,7 +52,7 @@
                   </fieldset>
                   <fieldset>
                      <div class="form-group">
-                        <label class="col-sm-2 control-label">Digits</label>
+                        <label class="col-sm-2 control-label">Incentive 2</label>
                         <div class="col-sm-6">
                            <input class="form-control" type="text" name="digits" required="" ng-pattern="/^[0-9]+$/" ng-model="digits" />
                            <span class="text-danger" ng-show="form.validateInput('digits', 'pattern')">This field must contain only digits</span>
@@ -106,7 +64,7 @@
                   </fieldset>
                   <fieldset>
                      <div class="form-group">
-                        <label class="col-sm-2 control-label">Alphanum</label>
+                        <label class="col-sm-2 control-label">Incentive 3</label>
                         <div class="col-sm-6">
                            <input class="form-control" type="text" name="alphanum" required="" ng-pattern="/^[a-zA-Z]+$/" ng-model="alphanum" />
                            <span class="text-danger" ng-show="form.validateInput('alphanum', 'pattern')">This field must contain only letters</span>

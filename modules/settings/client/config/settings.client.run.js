@@ -13,9 +13,9 @@
       // User Settings
       // -----------------------------------
       $rootScope.user = {
-        name:     'John',
-        job:      'ng-developer',
-        picture:  'img/user/02.jpg'
+        name:     'rowena',
+        job:      'full stack developer',
+        picture:  '#'
       };
 
       // Hides/show user avatar on sidebar from any element
@@ -26,8 +26,8 @@
       // Global Settings
       // -----------------------------------
       $rootScope.app = {
-        name: 'Angle',
-        description: 'Angular Bootstrap Admin Template',
+        name: 'CorpFit',
+        description: 'Corporate Weight Loss Challenge Application',
         year: ((new Date()).getFullYear()),
         layout: {
           isFixed: true,
