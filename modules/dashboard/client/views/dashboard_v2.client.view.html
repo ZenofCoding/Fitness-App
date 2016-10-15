@@ -1,49 +1,99 @@
-   <h3>
-  
-   fitbit STATS
-   <small>{{ user.name }}</small>
-</h3>
-<div class="row">
-   <div class="col-lg-4">
-      <!-- START List group-->
-      <ul class="list-group">
-         <li class="list-group-item">
-            <div class="row row-table pv-lg">
-               <div class="col-xs-6">
-                  <p class="m0 lead">1206</p>
-                  <p class="m0">
-                     <small>Steps Today</small>
-                  </p>
-               </div>
-               
-            </div>
-         </li>
-         <li class="list-group-item">
-            <div class="row row-table pv-lg">
-               <div class="col-xs-6">
-                  <p class="m0 lead">416</p>
-                  <p class="m0">
-                     <small>Calories Burned</small>
-                  </p>
-               </div>
-               
-            </div>
-         <li class="list-group-item">
-            <div class="row row-table pv-lg">
-               <div class="col-xs-6">
-                  <p class="m0 lead">2</p>
-                  <p class="m0">
-                     <small>Floors Climbed</small>
-                  </p>
-               </div>
-         </div>
-         </li>
-            </div>
-         </li>
-      </ul>
-      <!-- END List group-->
+   <div class="unwrap">
+   <div style="background-image: url(img/profile-bg.jpg)" class="bg-cover">
+      <div class="p-xl text-center text-white">
+         <img src="img/user/01.jpg" alt="Image" class="img-thumbnail img-circle thumb128" />
+         <h3 class="m0">{{user.name}}</h3>
+         <p>administrator</p>
+         <p>{{user.email}}</p>
+      </div>
    </div>
-   
-   <!-- END dashboard main content-->
+   <div class="text-center bg-gray-dark p-lg mb-xl">
+      <div class="row row-table">
+         <div class="col-xs-4 br">
+            <h3 class="m0">1</h3>
+            <p class="m0">
+               <span class="hidden-xs"># of Weight Loss</span>
+               <span>Challenges</span>
+            </p>
+         </div>
+         <div class="col-xs-4 br">
+            <h3 class="m0">16,000</h3>
+            <p class="m0">Steps</p>
+         </div>
+         <div class="col-xs-4">
+            <h3 class="m0">0</h3>
+            <p class="m0">Wins</p>
+         </div>
+      </div>
+   </div>
 </div>
-<!-- END Multiple List group-->
+<!--block with username, email, company, position-->
+ <div class="row">
+    <div class="col-md-4">
+      <div class="panel panel-default">
+         <div class="panel-body">
+            <div class="text-center">
+               <h3 class="mt0">{{user.name}}</h3>
+               <p>{{user.email}}rowena.jaico@gmail.com</p>
+            </div>
+            <hr/>
+            <ul class="list-unstyled ph-xl">
+               <li>
+                  <em class="fa fa-home fa-fw mr-lg"></em>Greater New York City</li>
+               <li>
+                  <em class="fa fa-briefcase fa-fw mr-lg"></em><a href="#">rowenajaico.com</a>
+               </li>
+               <li>
+                  <em class="fa fa-graduation-cap fa-fw mr-lg"></em>Full Stack Developer</li>
+            </ul>
+         </div>
+      </div>
+   </div>
+   <!--spacer-->
+      <div class="col-md-4"></div>
+   <!--FITBIT stats-->
+      <div class="col-md-4">
+      <!-- START List group-->
+         <ul class="list-group">
+            <li class="list-group-item">
+               <div class="row row-table pv-lg">
+                  <div class="col-xs-6">
+                     <p class="m0 lead">1206</p>
+                     <p class="m0">
+                        <small>Steps Today</small>
+                     </p>
+                  </div>
+                  
+               </div>
+            </li>
+            <li class="list-group-item">
+               <div class="row row-table pv-lg">
+                  <div class="col-xs-6">
+                     <p class="m0 lead">416</p>
+                     <p class="m0">
+                        <small>Calories Burned</small>
+                     </p>
+                  </div>
+                  
+               </div>
+            </li>
+            <li class="list-group-item">
+               <div class="row row-table pv-lg">
+                  <div class="col-xs-6">
+                     <p class="m0 lead">2</p>
+                     <p class="m0">
+                        <small>Floors Climbed</small>
+                     </p>
+                  </div>
+            </div>
+            </li>
+      </div>
+         </ul>
+      <!-- END List group-->
+      </div>
+   </div>
+</div>
+
+
+
+
