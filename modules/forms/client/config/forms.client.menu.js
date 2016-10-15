@@ -9,7 +9,7 @@
     function coreMenu(Menus){
 
         Menus.addMenuItem('sidebar', {
-            title: 'Challanges',
+            title: 'Challenges',
             state: 'app.form',
             type: 'dropdown',
             iconClass: 'icon-note',
