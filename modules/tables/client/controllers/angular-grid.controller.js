@@ -25,7 +25,7 @@
 
             // Basic
             var columnDefs = [{
-                headerName: 'Athlete',
+                headerName: 'Company',
                 field: 'athlete',
                 width: 150
             }, {
@@ -80,10 +80,10 @@
             };
 
             // Filter Example
-            var irishAthletes = ['John Joe Nevin', 'Katie Taylor', 'Paddy Barnes', 'Kenny Egan', 'Darren Sutherland', 'Margaret Thatcher', 'Tony Blair', 'Ronald Regan', 'Barack Obama'];
+            var irishAthletes = ['E Corp', 'RCB', 'Starbucks', 'Dunkin Donuts', 'Citi Bank', 'Bank of America'];
 
             var columnDefsFilter = [{
-                headerName: 'Athlete',
+                headerName: 'Company',
                 field: 'athlete',
                 width: 150,
                 filter: 'set',
