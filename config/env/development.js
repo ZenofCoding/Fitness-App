@@ -4,7 +4,7 @@ var defaultEnvConfig = require('./default');
 
 module.exports = {
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/mean-dev',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://' + (process.env.DB_1_PORT_27017_TCP_ADDR || 'localhost') + '/corp-fit',
     options: {
       user: '',
       pass: ''
@@ -55,8 +55,8 @@ module.exports = {
     callbackURL: '/api/auth/linkedin/callback'
   },
   github: {
-    clientID: process.env.GITHUB_ID || 'APP_ID',
-    clientSecret: process.env.GITHUB_SECRET || 'APP_SECRET',
+    clientID: process.env.GITHUB_ID || 'e7088cbdb9f7151b1c19',
+    clientSecret: process.env.GITHUB_SECRET || 'ead29cdd536a555d78a8fb2e37cfed16f931cd00',
     callbackURL: '/api/auth/github/callback'
   },
   paypal: {
