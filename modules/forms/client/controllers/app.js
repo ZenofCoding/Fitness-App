@@ -1,4 +1,4 @@
-var path = require('path');
+/*var path = require('path');
 var mongoose = require('mongoose');
 
 var app = express();
@@ -18,6 +18,13 @@ var Schema = new mongoose.Schema({
 
 var user = mongoose.model('emp', Schema);
 
+app.get('/view', function(req,res){
+	user.find({}, function(err,docs){
+		if(err) res.json(err);
+		else res.render();
+	})
+})
+
 app.post('/new', function(req,res){
 	new user({
 		_id: req.body.company;
@@ -31,4 +38,4 @@ app.post('/new', function(req,res){
 		else res.send('Successfully inserted');
 	});
 
-})
+})*/
