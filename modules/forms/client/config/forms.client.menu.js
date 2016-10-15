@@ -9,7 +9,7 @@
     function coreMenu(Menus){
 
         Menus.addMenuItem('sidebar', {
-            title: 'Start a Competition',
+            title: 'Challanges',
             state: 'app.form',
             type: 'dropdown',
             iconClass: 'icon-note',
@@ -20,7 +20,7 @@
 
       
         Menus.addSubMenuItem('sidebar', 'app.form', {title: 'Join a Challenge',  state: 'app.form-extended'});
-        Menus.addSubMenuItem('sidebar', 'app.form', {title: 'Create a Group',  state: 'app.form-validation'});
+        Menus.addSubMenuItem('sidebar', 'app.form', {title: 'Create a Challenge',  state: 'app.form-validation'});
         
 
 
