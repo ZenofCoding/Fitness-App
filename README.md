@@ -2,7 +2,7 @@
 # CorpFit APP
 
 ## Description
-We wanted to create a Application For Office Fitness Challenge. 
+We wanted to create a Office Fitness Challenge Application. 
 The goals is for each Office to create a weight loss challenge among colleagues. 
 One person would have Admin privileges, Which allows this person to create the rule for each competition.
 Each competitor can log in and track their status using FITBIT.

@@ -18,17 +18,17 @@
         });
 
         Menus.addSubMenuItem('sidebar', 'app.dash', {
-            title: 'Dashboard v1',
+            title: 'Leaderboard',
             state: 'app.dashboard'
         });
         Menus.addSubMenuItem('sidebar', 'app.dash', {
-            title: 'Dashboard v2',
+            title: 'Your Fitbit Stats',
             state: 'app.dashboard_v2'
         });
-        Menus.addSubMenuItem('sidebar', 'app.dash', {
+       /* Menus.addSubMenuItem('sidebar', 'app.dash', {
             title: 'Dashboard v3',
             state: 'app.dashboard_v3'
-        });
+        });*/
 
     }
 
