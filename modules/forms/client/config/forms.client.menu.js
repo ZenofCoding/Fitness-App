@@ -18,7 +18,11 @@
         });
 
 
-        Menus.addSubMenuItem('sidebar', 'app.form', {title: 'Create A Competition',  state: 'app.form-validation'});  
+      
+        Menus.addSubMenuItem('sidebar', 'app.form', {title: 'Join a Challenge',  state: 'app.form-extended'});
+        Menus.addSubMenuItem('sidebar', 'app.form', {title: 'Create a Group',  state: 'app.form-validation'});
+        
+
 
     }
 

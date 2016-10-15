@@ -1,0 +1,47 @@
+<h3>Join a Challenge
+   <small>...and get ready to win!</small>
+</h3>
+
+<!-- START row-->
+<div class="container-fluid" ng-controller="FormValidationController as form">
+   <div class="row">
+      <div class="col-md-12">
+         <form class="form-validate form-horizontal" name="form.formValidate" ng-submit="form.submitForm()" novalidate="">
+            <!-- START panel-->
+            <div class="panel panel-default">
+               <div class="panel-body">
+                  <fieldset class="b0">
+                     <legend>Get Challenge information from your Administrator</legend>
+                  </fieldset>
+                  <fieldset>
+                     <div class="form-group">
+                        <label class="col-sm-2 control-label">Company Name</label>
+                        <div class="col-sm-6">
+                           <input class="form-control" type="text" name="sometext" required="" ng-model="sometext" />
+                           <span class="text-danger" ng-show="form.validateInput('sometext', 'required')">This field is required</span>
+                        </div>
+                        <div class="col-sm-4">
+                           <small class="text-muted">required</small>
+                        </div>
+                     </div>
+                  </fieldset>
+                  <fieldset>
+                     <div class="form-group">
+                        <label class="col-sm-2 control-label">Challenge Name</label>
+                        <div class="col-sm-6">
+                           <input class="form-control" type="email" placeholder="" name="email" required="" ng-model="email" />
+                           <span class="text-danger" ng-show="form.validateInput('email', 'required')">This field is required</span>
+                           <span class="text-danger" ng-show="form.validateInput('sometext', 'required')">This field is required</span>
+                        </div>
+                        <div class="col-sm-4">
+                           <small class="text-muted">required</small>
+                        </div>
+                     </div>
+                  </fieldset>
+
+                  
+            </div>
+                 
+                  
+   <!-- END row-->
+</div>
