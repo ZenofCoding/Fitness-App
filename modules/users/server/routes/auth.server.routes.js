@@ -57,6 +57,7 @@ module.exports = function (app) {
 
   app.route('/api/auth/fitbit').get(users.oauthCall('fitbit', {
     scope: [
+      'activity',
       'profile'
     ]
   }));
