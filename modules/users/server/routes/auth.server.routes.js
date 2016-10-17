@@ -54,4 +54,12 @@ module.exports = function (app) {
   // Setting the paypal oauth routes
   app.route('/api/auth/paypal').get(users.oauthCall('paypal'));
   app.route('/api/auth/paypal/callback').get(users.oauthCallback('paypal'));
+
+  app.route('/api/auth/fitbit').get(users.oauthCall('fitbit', {
+    scope: [
+      'activity',
+      'profile'
+    ]
+  }));
+  app.route('/api/auth/fitbit/callback').get(users.oauthCallback('fitbit'));
 };

@@ -65,6 +65,11 @@ module.exports = {
     callbackURL: '/api/auth/paypal/callback',
     sandbox: true
   },
+  fitbit: {
+    clientID: process.env.FITBIT_ID || '22828X',
+    clientSecret: process.env.FITBIT_SECRET || 'd24dfc6f7bb64f374459e04747b67cf8',
+    callbackURL: '/api/auth/fitbit/callback'
+  },
   mailer: {
     from: process.env.MAILER_FROM || 'MAILER_FROM',
     options: {
